@@ -4,7 +4,8 @@
 
 .cardWrapper{
     background-color: var(--Blue);
-    border-radius: 17px;
+    border-radius: 22px;
+    max-width: 335px;
 }
 
 .StateOne h1{
@@ -12,7 +13,7 @@
 }
 
 .StateOne p{
-  font-size: 15px;
+  font-size: 14px;
   color: var(--Light_Grey);
 }
 
@@ -67,6 +68,6 @@
 }
 
 .StateTwo p{
-    font-size: 15px;
+    font-size: 14px;
     color: var(--Light_Grey);
   }

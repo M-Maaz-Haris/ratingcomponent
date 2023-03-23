@@ -40,7 +40,7 @@ const Home = () => {
               md={{ span: 6, offset: 3 }}
               lg={{ span: 4, offset: 4 }}
             >
-              <div className={`${styles.cardWrapper} py-5 px-4`}>
+              <div className={`${styles.cardWrapper} py-5 px-4 mx-auto`}>
                 {step ? (
                   <div>
                     <span
