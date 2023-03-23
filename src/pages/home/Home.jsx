@@ -37,7 +37,7 @@ const Home = () => {
           <Row>
             <Col
               xs={12}
-              md={{ span: 4, offset: 4 }}
+              md={{ span: 6, offset: 3 }}
               lg={{ span: 4, offset: 4 }}
             >
               <div className={`${styles.cardWrapper} py-5 px-4`}>
