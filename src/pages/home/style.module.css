@@ -1,0 +1,72 @@
+.wrapper{
+    height: 100vh;
+}
+
+.cardWrapper{
+    background-color: var(--Blue);
+    border-radius: 17px;
+}
+
+.StateOne h1{
+    font-size: 20px;
+}
+
+.StateOne p{
+  font-size: 15px;
+  color: var(--Light_Grey);
+}
+
+.iconWrapper {
+    background-color: #37414b;
+    width: 45px;
+    height: 45px;
+}
+
+.ratingWrapper li{
+    background-color: #37414b;
+    width: 45px;
+    height: 45px;
+    color: var(--Light_Grey);
+    transition: 0.4s;
+}
+
+.ratingWrapper li.active{
+    background-color: var(--Orange);
+    color: white;
+}
+
+.ratingWrapper li:hover{
+    background-color: var(--Light_Grey);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.button{
+   background-color: var(--Orange);
+   font-size: 14px;
+   transition: 0.4s;
+   color: white;
+}
+
+.button:hover{
+    background-color: white;
+    color: var(--Orange);
+    transition: 0.4s;
+}
+
+.ratingStatus{
+    color: var(--Orange);
+    background-color: #37414b;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.StateTwo h2{
+    font-size: 20px;
+}
+
+.StateTwo p{
+    font-size: 15px;
+    color: var(--Light_Grey);
+  }
